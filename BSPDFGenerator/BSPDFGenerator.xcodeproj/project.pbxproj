@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C11E2DE1922422400931FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2DD1922422400931FC1 /* Foundation.framework */; };
+		9C11E2E01922422400931FC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2DF1922422400931FC1 /* CoreGraphics.framework */; };
+		9C11E2E21922422400931FC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2E11922422400931FC1 /* UIKit.framework */; };
+		9C11E2E41922422400931FC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2E31922422400931FC1 /* CoreData.framework */; };
+		9C11E2EA1922422400931FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C11E2E81922422400931FC1 /* InfoPlist.strings */; };
+		9C11E2EC1922422400931FC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C11E2EB1922422400931FC1 /* main.m */; };
+		9C11E2F01922422400931FC1 /* BSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C11E2EF1922422400931FC1 /* BSAppDelegate.m */; };
+		9C11E2F31922422400931FC1 /* BSPDFGenerator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C11E2F11922422400931FC1 /* BSPDFGenerator.xcdatamodeld */; };
+		9C11E2F51922422400931FC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C11E2F41922422400931FC1 /* Images.xcassets */; };
+		9C11E2FC1922422500931FC1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2FB1922422500931FC1 /* XCTest.framework */; };
+		9C11E2FD1922422500931FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2DD1922422400931FC1 /* Foundation.framework */; };
+		9C11E2FE1922422500931FC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2E11922422400931FC1 /* UIKit.framework */; };
+		9C11E2FF1922422500931FC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2E31922422400931FC1 /* CoreData.framework */; };
+		9C11E3071922422500931FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C11E3051922422500931FC1 /* InfoPlist.strings */; };
+		9C11E3091922422500931FC1 /* BSPDFGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C11E3081922422500931FC1 /* BSPDFGeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C11E3001922422500931FC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C11E2D21922422400931FC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C11E2D91922422400931FC1;
+			remoteInfo = BSPDFGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C11E2DA1922422400931FC1 /* BSPDFGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPDFGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C11E2DD1922422400931FC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9C11E2DF1922422400931FC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9C11E2E11922422400931FC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9C11E2E31922422400931FC1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9C11E2E71922422400931FC1 /* BSPDFGenerator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSPDFGenerator-Info.plist"; sourceTree = "<group>"; };
+		9C11E2E91922422400931FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C11E2EB1922422400931FC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C11E2ED1922422400931FC1 /* BSPDFGenerator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BSPDFGenerator-Prefix.pch"; sourceTree = "<group>"; };
+		9C11E2EE1922422400931FC1 /* BSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSAppDelegate.h; sourceTree = "<group>"; };
+		9C11E2EF1922422400931FC1 /* BSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSAppDelegate.m; sourceTree = "<group>"; };
+		9C11E2F21922422400931FC1 /* BSPDFGenerator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BSPDFGenerator.xcdatamodel; sourceTree = "<group>"; };
+		9C11E2F41922422400931FC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9C11E2FA1922422500931FC1 /* BSPDFGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPDFGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C11E2FB1922422500931FC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9C11E3041922422500931FC1 /* BSPDFGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSPDFGeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		9C11E3061922422500931FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9C11E3081922422500931FC1 /* BSPDFGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPDFGeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C11E2D71922422400931FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C11E2E01922422400931FC1 /* CoreGraphics.framework in Frameworks */,
+				9C11E2E41922422400931FC1 /* CoreData.framework in Frameworks */,
+				9C11E2E21922422400931FC1 /* UIKit.framework in Frameworks */,
+				9C11E2DE1922422400931FC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C11E2F71922422500931FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C11E2FC1922422500931FC1 /* XCTest.framework in Frameworks */,
+				9C11E2FF1922422500931FC1 /* CoreData.framework in Frameworks */,
+				9C11E2FE1922422500931FC1 /* UIKit.framework in Frameworks */,
+				9C11E2FD1922422500931FC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C11E2D11922422400931FC1 = {
+			isa = PBXGroup;
+			children = (
+				9C11E2E51922422400931FC1 /* BSPDFGenerator */,
+				9C11E3021922422500931FC1 /* BSPDFGeneratorTests */,
+				9C11E2DC1922422400931FC1 /* Frameworks */,
+				9C11E2DB1922422400931FC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C11E2DB1922422400931FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E2DA1922422400931FC1 /* BSPDFGenerator.app */,
+				9C11E2FA1922422500931FC1 /* BSPDFGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C11E2DC1922422400931FC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E2DD1922422400931FC1 /* Foundation.framework */,
+				9C11E2DF1922422400931FC1 /* CoreGraphics.framework */,
+				9C11E2E11922422400931FC1 /* UIKit.framework */,
+				9C11E2E31922422400931FC1 /* CoreData.framework */,
+				9C11E2FB1922422500931FC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C11E2E51922422400931FC1 /* BSPDFGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E2EE1922422400931FC1 /* BSAppDelegate.h */,
+				9C11E2EF1922422400931FC1 /* BSAppDelegate.m */,
+				9C11E2F41922422400931FC1 /* Images.xcassets */,
+				9C11E2F11922422400931FC1 /* BSPDFGenerator.xcdatamodeld */,
+				9C11E2E61922422400931FC1 /* Supporting Files */,
+			);
+			path = BSPDFGenerator;
+			sourceTree = "<group>";
+		};
+		9C11E2E61922422400931FC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E2E71922422400931FC1 /* BSPDFGenerator-Info.plist */,
+				9C11E2E81922422400931FC1 /* InfoPlist.strings */,
+				9C11E2EB1922422400931FC1 /* main.m */,
+				9C11E2ED1922422400931FC1 /* BSPDFGenerator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C11E3021922422500931FC1 /* BSPDFGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E3081922422500931FC1 /* BSPDFGeneratorTests.m */,
+				9C11E3031922422500931FC1 /* Supporting Files */,
+			);
+			path = BSPDFGeneratorTests;
+			sourceTree = "<group>";
+		};
+		9C11E3031922422500931FC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C11E3041922422500931FC1 /* BSPDFGeneratorTests-Info.plist */,
+				9C11E3051922422500931FC1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C11E2D91922422400931FC1 /* BSPDFGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C11E30C1922422500931FC1 /* Build configuration list for PBXNativeTarget "BSPDFGenerator" */;
+			buildPhases = (
+				9C11E2D61922422400931FC1 /* Sources */,
+				9C11E2D71922422400931FC1 /* Frameworks */,
+				9C11E2D81922422400931FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSPDFGenerator;
+			productName = BSPDFGenerator;
+			productReference = 9C11E2DA1922422400931FC1 /* BSPDFGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C11E2F91922422500931FC1 /* BSPDFGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C11E30F1922422500931FC1 /* Build configuration list for PBXNativeTarget "BSPDFGeneratorTests" */;
+			buildPhases = (
+				9C11E2F61922422500931FC1 /* Sources */,
+				9C11E2F71922422500931FC1 /* Frameworks */,
+				9C11E2F81922422500931FC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C11E3011922422500931FC1 /* PBXTargetDependency */,
+			);
+			name = BSPDFGeneratorTests;
+			productName = BSPDFGeneratorTests;
+			productReference = 9C11E2FA1922422500931FC1 /* BSPDFGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C11E2D21922422400931FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BS;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MSquared;
+				TargetAttributes = {
+					9C11E2F91922422500931FC1 = {
+						TestTargetID = 9C11E2D91922422400931FC1;
+					};
+				};
+			};
+			buildConfigurationList = 9C11E2D51922422400931FC1 /* Build configuration list for PBXProject "BSPDFGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C11E2D11922422400931FC1;
+			productRefGroup = 9C11E2DB1922422400931FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C11E2D91922422400931FC1 /* BSPDFGenerator */,
+				9C11E2F91922422500931FC1 /* BSPDFGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C11E2D81922422400931FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C11E2EA1922422400931FC1 /* InfoPlist.strings in Resources */,
+				9C11E2F51922422400931FC1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C11E2F81922422500931FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C11E3071922422500931FC1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C11E2D61922422400931FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C11E2EC1922422400931FC1 /* main.m in Sources */,
+				9C11E2F01922422400931FC1 /* BSAppDelegate.m in Sources */,
+				9C11E2F31922422400931FC1 /* BSPDFGenerator.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C11E2F61922422500931FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C11E3091922422500931FC1 /* BSPDFGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C11E3011922422500931FC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C11E2D91922422400931FC1 /* BSPDFGenerator */;
+			targetProxy = 9C11E3001922422500931FC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C11E2E81922422400931FC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C11E2E91922422400931FC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9C11E3051922422500931FC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C11E3061922422500931FC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C11E30A1922422500931FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9C11E30B1922422500931FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C11E30D1922422500931FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPDFGenerator/BSPDFGenerator-Prefix.pch";
+				INFOPLIST_FILE = "BSPDFGenerator/BSPDFGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9C11E30E1922422500931FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPDFGenerator/BSPDFGenerator-Prefix.pch";
+				INFOPLIST_FILE = "BSPDFGenerator/BSPDFGenerator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9C11E3101922422500931FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSPDFGenerator.app/BSPDFGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPDFGenerator/BSPDFGenerator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BSPDFGeneratorTests/BSPDFGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9C11E3111922422500931FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BSPDFGenerator.app/BSPDFGenerator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BSPDFGenerator/BSPDFGenerator-Prefix.pch";
+				INFOPLIST_FILE = "BSPDFGeneratorTests/BSPDFGeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C11E2D51922422400931FC1 /* Build configuration list for PBXProject "BSPDFGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C11E30A1922422500931FC1 /* Debug */,
+				9C11E30B1922422500931FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C11E30C1922422500931FC1 /* Build configuration list for PBXNativeTarget "BSPDFGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C11E30D1922422500931FC1 /* Debug */,
+				9C11E30E1922422500931FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C11E30F1922422500931FC1 /* Build configuration list for PBXNativeTarget "BSPDFGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C11E3101922422500931FC1 /* Debug */,
+				9C11E3111922422500931FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C11E2F11922422400931FC1 /* BSPDFGenerator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C11E2F21922422400931FC1 /* BSPDFGenerator.xcdatamodel */,
+			);
+			currentVersion = 9C11E2F21922422400931FC1 /* BSPDFGenerator.xcdatamodel */;
+			path = BSPDFGenerator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9C11E2D21922422400931FC1 /* Project object */;
+}
