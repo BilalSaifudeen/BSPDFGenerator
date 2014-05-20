@@ -7,6 +7,7 @@
 //
 
 #import "BSAppDelegate.h"
+#import "BSDemoViewController.h"
 
 @implementation BSAppDelegate
 
@@ -20,6 +21,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    BSDemoViewController *rootViewController = [[BSDemoViewController alloc] initWithNibName:@"BSDemoViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
+    [self.window setRootViewController:navigationController];
     return YES;
 }
 

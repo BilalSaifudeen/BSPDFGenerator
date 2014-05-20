@@ -22,6 +22,9 @@
 		9C11E2FF1922422500931FC1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C11E2E31922422400931FC1 /* CoreData.framework */; };
 		9C11E3071922422500931FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C11E3051922422500931FC1 /* InfoPlist.strings */; };
 		9C11E3091922422500931FC1 /* BSPDFGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C11E3081922422500931FC1 /* BSPDFGeneratorTests.m */; };
+		9C28FBE61923643200956FA8 /* BSDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C28FBE41923643200956FA8 /* BSDemoViewController.m */; };
+		9C28FBE71923643200956FA8 /* BSDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C28FBE51923643200956FA8 /* BSDemoViewController.xib */; };
+		B87C31C2192B61610076B3BC /* BSPDFGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B87C31C1192B61610076B3BC /* BSPDFGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		9C11E3041922422500931FC1 /* BSPDFGeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BSPDFGeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		9C11E3061922422500931FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9C11E3081922422500931FC1 /* BSPDFGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPDFGeneratorTests.m; sourceTree = "<group>"; };
+		9C28FBE31923643200956FA8 /* BSDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDemoViewController.h; sourceTree = "<group>"; };
+		9C28FBE41923643200956FA8 /* BSDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDemoViewController.m; sourceTree = "<group>"; };
+		9C28FBE51923643200956FA8 /* BSDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BSDemoViewController.xib; sourceTree = "<group>"; };
+		B87C31C0192B61610076B3BC /* BSPDFGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPDFGenerator.h; sourceTree = "<group>"; };
+		B87C31C1192B61610076B3BC /* BSPDFGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPDFGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +125,12 @@
 			children = (
 				9C11E2EE1922422400931FC1 /* BSAppDelegate.h */,
 				9C11E2EF1922422400931FC1 /* BSAppDelegate.m */,
+				9C28FBE81923645500956FA8 /* Model */,
+				9C28FBE31923643200956FA8 /* BSDemoViewController.h */,
+				9C28FBE41923643200956FA8 /* BSDemoViewController.m */,
+				9C28FBE51923643200956FA8 /* BSDemoViewController.xib */,
+				B87C31C0192B61610076B3BC /* BSPDFGenerator.h */,
+				B87C31C1192B61610076B3BC /* BSPDFGenerator.m */,
 				9C11E2F41922422400931FC1 /* Images.xcassets */,
 				9C11E2F11922422400931FC1 /* BSPDFGenerator.xcdatamodeld */,
 				9C11E2E61922422400931FC1 /* Supporting Files */,
@@ -151,6 +165,13 @@
 				9C11E3051922422500931FC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C28FBE81923645500956FA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +252,7 @@
 			files = (
 				9C11E2EA1922422400931FC1 /* InfoPlist.strings in Resources */,
 				9C11E2F51922422400931FC1 /* Images.xcassets in Resources */,
+				9C28FBE71923643200956FA8 /* BSDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B87C31C2192B61610076B3BC /* BSPDFGenerator.m in Sources */,
 				9C11E2EC1922422400931FC1 /* main.m in Sources */,
 				9C11E2F01922422400931FC1 /* BSAppDelegate.m in Sources */,
+				9C28FBE61923643200956FA8 /* BSDemoViewController.m in Sources */,
 				9C11E2F31922422400931FC1 /* BSPDFGenerator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,6 +478,7 @@
 				9C11E30E1922422500931FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C11E30F1922422500931FC1 /* Build configuration list for PBXNativeTarget "BSPDFGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +487,7 @@
 				9C11E3111922422500931FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
